@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Code by Brackeys
+// Sourced from https://youtu.be/_QajrabyTJc
+
 public class MouseLook : MonoBehaviour
 {
     public float mouseSensitivity = 500f;
