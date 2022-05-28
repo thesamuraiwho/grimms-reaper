@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    public float damage = 10f;
+    public float damage = 50f;
     public float range = 100f;
     public float fireRate = 15f;
     public float impactForce = 30f;
@@ -43,7 +43,7 @@ public class Gun : MonoBehaviour
             }
 
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(impactGO, 2f);
+            Destroy(impactGO, 0.25f);
         }
     }
 }

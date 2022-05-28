@@ -14,25 +14,32 @@ Theme: `DEATH IS ONLY THE BEGINNING!`
     * Abilities
       * Shoot
       * Melee
-      * Slowmo
+      * ~~Slowmo~~
     * Traits
-      * No jumping
+      * ~~No jumping~~
       * No running but move fast by default
       * Infinite ammo but need to reload
       * Health
       * Lives
     * Pickups
       * Weapons
-      * Recharge
+      * ~~Recharge~~
       * Health
     * Enemies
       * Grimm
+        * Two stages
+          * Shooting
+          * Melee
       * Grimm minions
         * Stabby (melee)
         * Shooty (smgs, shotguns)
         * Snipey (snipers)
         * Boomey (suicide bombers)
         * Tanky (minigun)
+      * AI
+        * Spawn points
+        * Attacking
+        * Dying
     * Environment
       * The Long Hall
       * The Arena
