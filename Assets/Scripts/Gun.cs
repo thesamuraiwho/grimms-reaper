@@ -4,7 +4,7 @@ public class Gun : MonoBehaviour
 {
     public float damage = 50f;
     public float range = 100f;
-    public float fireRate = 15f;
+    public float fireRate = 2f;
     public float impactForce = 30f;
 
     public Camera fpsCam;
@@ -43,7 +43,7 @@ public class Gun : MonoBehaviour
             }
 
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(impactGO, 0.25f);
+            Destroy(impactGO, 1f);
         }
     }
 }
