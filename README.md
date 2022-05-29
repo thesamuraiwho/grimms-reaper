@@ -4,6 +4,11 @@ Created by thesamuraiwho and BargonSpaceman for the [GameDev.TV Game Jam 2022](h
 
 Theme: `DEATH IS ONLY THE BEGINNING!`
 
+Attribution:
+
+* BargonSpaceman: art and design, texture painting, level design
+* TheSamuraiWho: programming, 3D modeling
+
 * Boomer shooter (FPS)
   * Story: Spouse is taken by Grimm the Reaper. You go fight Grimm's hordes to get them back and kill Grimm.
     * Characters
